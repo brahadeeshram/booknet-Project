@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookNet</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="a">
+    <h1>BookNet</h1>
+    </div>
+    <div class="container" >
+        <div class="book-container">
+            <h2>Rich Dad Poor Dad</h2>
+            <h4>robert</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat eius autem expedita natus fuga maiores laudantium reiciendis dolorum vero, ipsa vel hic accusamus voluptas totam. Sint natus cum perspiciatis ex!</p>
+            <button onclick="deletetab(event)">Close</button>
+        </div>
+    </div>
+    <div class="colors"></div>
+    <div class="popup" >
+        <h2>Adding books</h2>
+        <form>
+            <input placeholder="Enter the book name" id="b-name">
+            <input placeholder="Enter the author name" id="a-name">
+            <textarea placeholder="Summary about book" id="summary"></textarea>
+            <button id="cancel">Cancel</button>
+            <button id="add-book">ADD</button>
+        </form>
+    </div>
+    <button class="add">+</button>
+    <script src="script.js"></script>
+</body>
+</html>
